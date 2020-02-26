@@ -1,5 +1,5 @@
 # Havok-Aug2009
-Havok and its various tools are part of a cryptography research project which I coded in C++ when I was 19 years old. The goal of the project was not to develop the fastest or best password cracking tool, but to demonstrate various cracking algorithm optimization techniques, experiment with distributed computing, and measure the benefits of human behavior analysis. The program was run on a homemade computer cluster.
+Havok and its various tools are part of a cryptography research project which I coded in C++ when I was 18 years old. The goal of the project was not to develop the fastest or best password cracking tool, but to demonstrate various cracking algorithm optimization techniques, experiment with distributed computing, and measure the benefits of human behavior analysis. The program was run on a homemade computer cluster.
 
 Havokv3 - the main project program, Havok version 3 is a distributed password recovery tool. Its various modules support recovery of MD4, MD5, NTLM, MSCACHE, and Kerberos 5 passwords for single and multiple simultaneous hashes. The Kerberos 5 module experimented with various timesaving techniques in the encryption algorithm, namely saving 26% recovery time by preemptively checking the time stamp before computing the entire checksum. 
 
